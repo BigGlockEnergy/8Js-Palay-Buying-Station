@@ -1,0 +1,1354 @@
+/*Desktop View*/
+@media only screen and (min-width: 1025px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f61001e;
+
+  }
+
+  .site-wrapper {
+    width: 100%;
+    overflow: auto;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+
+  /*navbar*/
+  #navbar {
+    margin: 0;
+    gap: 0;
+    width: 100vw;
+    height: 80px;
+    z-index: 2;
+
+  }
+
+  header {
+    background-color: #507526e8;
+  }
+
+  .logo {
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+  }
+
+  .logo.nav {
+    position: relative;
+    left: 30px;
+  }
+
+  li .navbar-items {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+
+  li .navbar-items:hover {
+    transform: scale(130%, 130%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+
+  }
+
+  .lang {
+    font-size: 1rem;
+  }
+
+  .lang:hover {
+    color: rgb(255, 230, 0) !important;
+  }
+
+
+  #us-flag {
+    height: 16px;
+    padding: 3px;
+    margin: auto;
+  }
+
+  #ph-flag {
+    height: 16px;
+    padding: 3px;
+    margin: auto;
+
+  }
+
+
+  /*Cover*/
+  #cover {
+    margin: auto;
+    padding: 0;
+    height: 90vh;
+
+  }
+
+  .container-fluid.carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .cover-item {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 50% center;
+  }
+
+  #cover-2 {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 25% top;
+  }
+
+
+
+  /*Features*/
+  .features.heading {
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .container.marketing>.row .col-lg-4 {
+    padding: 80px;
+  }
+
+  .features.rounded-image {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .features.rounded-image.change-position {
+    object-position: 5% 5%;
+  }
+
+
+  /*Featurette*/
+
+  .featurette-heading.fw-normal.lh-1 {
+    color: #2d8a39;
+    font-size: 2.5rem;
+  }
+
+  h2>.text-body-secondary {
+    color: #BFAC41 !important;
+  }
+
+  .images-featurette {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+  }
+
+  .p-emphasis {
+    font-weight: 700;
+  }
+
+  .featurette-padding {
+    padding: 5px 70px;
+  }
+
+  span.proverb {
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+    vertical-align: middle;
+  }
+
+  p.lead {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+
+  /*Hero*/
+
+  #mabuhay-gradient {
+    font-size: 7rem;
+    -webkit-text-stroke: 0.5px black;
+    background-image: url(../images/others/flag-clip.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+  }
+
+  /*Jumbotron*/
+
+  .jumb-bg-img {
+    background-image: url(../images/ph-flags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+
+  /*Segway*/
+  .segway {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: auto;
+    justify-content: center;
+
+  }
+
+  .seg-head:hover {
+    transform: scale(110%, 110%);
+  }
+
+  .seg-btn:hover {
+    transform: scale(110%, 110%);
+  }
+
+
+
+  /*FAQ*/
+
+  .faq-title {
+    font-size: 58px;
+  }
+
+  .paddy-faq-head {
+    display: flex;
+  }
+
+  .rice-faq-head {
+    display: flex;
+  }
+
+  .p-faq {
+    font-size: 1.2rem;
+  }
+
+  .p-close {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+
+  h2.accordion-header>button {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+
+
+
+  /*Footer*/
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  li .footer-item {
+    display: none;
+    font-size: 1.5em;
+    font-weight: 700px;
+    color: #ffffff;
+  }
+
+  li .footer-item:hover {
+    transform: scale(130%, 130%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+  }
+
+  .copy-footer {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+
+  #footer>div>footer>a>img.logo-foot {
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: white;
+  }
+
+
+  .nav-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+  }
+
+
+  .foot-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+
+/*min-width 768px and max-width 1024px*/
+@media only screen and (max-width: 1024px), (min-width: 768) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f61001e;
+
+  }
+
+  .site-wrapper {
+    width: 100%;
+    overflow: auto;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+
+  /*navbar*/
+  #navbar {
+    margin: 0;
+    gap: 0;
+    width: 100vw;
+    height: 80px;
+    z-index: 2;
+
+  }
+
+  header {
+    background-color: #507526e8;
+  }
+
+  .logo {
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+  }
+
+  .logo.nav {
+    position: relative;
+    left: 30px;
+  }
+
+  li .navbar-items {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+
+  li .navbar-items:hover {
+    transform: scale(130%, 130%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+
+  }
+
+  a.lang.eng {
+    font-size: 14px;
+  }
+
+  a.lang.tl {
+    font-size: 14px;
+  }
+
+  .lang {
+    font-size: 1rem;
+  }
+
+  .lang:hover {
+    color: rgb(255, 230, 0) !important;
+  }
+
+
+  #us-flag {
+    height: 16px;
+    padding: 3px;
+    margin: auto;
+  }
+
+  #ph-flag {
+    height: 16px;
+    padding: 3px;
+    margin: auto;
+
+  }
+
+
+  /*Cover*/
+  #cover {
+    margin: auto;
+    padding: 0;
+    height: 90vh;
+
+  }
+
+  .container-fluid.carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .cover-item {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 50% center;
+  }
+
+  #cover-2 {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 25% top;
+  }
+
+
+
+  /*Features*/
+  .features.heading {
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .container.marketing>.row .col-lg-4 {
+    padding: 80px;
+  }
+
+  .features.rounded-image {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .features.rounded-image.change-position {
+    object-position: 5% 5%;
+  }
+
+
+  /*Featurette*/
+
+  .featurette-heading.fw-normal.lh-1 {
+    color: #2d8a39;
+    font-size: 2.2rem;
+  }
+
+  h2>.text-body-secondary {
+    color: #BFAC41 !important;
+  }
+
+  .images-featurette {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+
+  }
+
+  .p-emphasis {
+    font-weight: 700;
+  }
+
+  .featurette-padding {
+    padding: 5px 70px;
+  }
+
+  span.proverb {
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+    vertical-align: middle;
+  }
+
+  p.lead {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+
+  /*Hero*/
+
+  #mabuhay-gradient {
+    font-size: 5rem;
+    -webkit-text-stroke: 0.5px black;
+    background-image: url(../images/others/flag-clip.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+  }
+
+  /*Jumbotron*/
+
+  .jumb-bg-img {
+    background-image: url(../images/ph-flags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+
+  /*Segway*/
+  .segway {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: auto;
+    justify-content: center;
+
+  }
+
+  .seg-head:hover {
+    transform: scale(110%, 110%);
+  }
+
+  .seg-btn:hover {
+    transform: scale(110%, 110%);
+  }
+
+
+  /*Footer*/
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  li .footer-item {
+    display: none;
+    font-size: 1em;
+    font-weight: 700px;
+    color: #ffffff;
+  }
+
+  li .footer-item:hover {
+    transform: scale(130%, 130%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+  }
+
+  .copy-footer {
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
+
+  #footer>div>footer>a>img.logo-foot {
+    transform: scale(80%);
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: white;
+  }
+
+
+  .nav-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+  }
+
+
+  .foot-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+
+/*max-width 767px*/
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f61001e;
+
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+
+  /*navbar*/
+  #navbar {
+    margin: 0;
+    gap: 0;
+    width: 100vw;
+    height: 80px;
+    z-index: 2;
+    word-break: break-all;
+
+  }
+
+  header {
+    background-color: #507526e8;
+  }
+
+  .logo {
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    left: 44%;
+    bottom: 7%;
+
+  }
+
+  .logo.nav {
+    position: relative;
+    left: 30px;
+  }
+
+  li.nav-link.nav-item {
+    display: inline-flex;
+  }
+
+  li .navbar-items {
+    display: flex;
+    flex: 1 1 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    border-radius: 10%;
+    width: fit-content;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.171);
+  }
+
+
+  li .navbar-items:hover {
+    transform: scale(100%, 100%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+
+  }
+
+  .lang:hover {
+    color: rgb(255, 230, 0) !important;
+  }
+
+  a.lang.eng {
+    font-size: 14px;
+  }
+
+  a.lang.tl {
+    font-size: 14px;
+  }
+
+  #nav-home {
+    margin-top: 0;
+
+  }
+
+
+  #us-flag {
+    height: 18px;
+    padding: 3px;
+    margin: auto;
+  }
+
+  #ph-flag {
+    height: 18px;
+    padding: 3px;
+    margin: auto;
+
+  }
+
+  .flex-shrink-0 {
+    flex-shrink: 0 !important;
+  }
+
+  #navbarCollapse>div {
+    padding: 0.8em !important;
+    margin-right: 0 !important;
+  }
+
+
+
+
+
+  /*Cover*/
+  #cover {
+    margin: auto;
+    padding: 0;
+    height: 90vh;
+
+  }
+
+  .container-fluid.carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .cover-item {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 50% center;
+  }
+
+  #cover-2 {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 25% top;
+  }
+
+
+
+  /*Features*/
+  .features.heading {
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .container.marketing>.row .col-lg-4 {
+    padding: 80px;
+  }
+
+  .features.rounded-image {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .features.rounded-image.change-position {
+    object-position: 5% 5%;
+  }
+
+
+  /*Featurette*/
+
+  .featurette-heading.fw-normal.lh-1 {
+    color: #2d8a39;
+    font-size: 2.5rem;
+  }
+
+  h2>.text-body-secondary {
+    color: #BFAC41 !important;
+  }
+
+  .images-featurette {
+    width: 70%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15%;
+
+  }
+
+  .p-emphasis {
+    font-weight: 700;
+  }
+
+  .featurette-padding {
+    padding: 5px 70px;
+  }
+
+  span.proverb {
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+    vertical-align: middle;
+  }
+
+  p.lead {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  #featurette>div .col-md-4 {
+    text-align: center !important;
+    margin: 20px 0px;
+  }
+
+  /****CENTER IMAGES DAMN THING STUBBORN****/
+  #featurette>div:nth-child(2)>div.col-md-4.d-flex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #featurette>div:nth-child(4)>div.col-md-4.order-md-1.d-flex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #featurette>div:nth-child(6)>div.col-md-4.d-flex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+
+
+  /*Hero*/
+
+  #mabuhay-gradient {
+    font-size: 4rem;
+    -webkit-text-stroke: 0.5px black;
+    background-image: url(../images/others/flag-clip.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+  }
+
+  /*Jumbotron*/
+
+  .jumb-bg-img {
+    background-image: url(../images/ph-flags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+
+  /*Segway*/
+  .segway {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: auto;
+    justify-content: center;
+
+  }
+
+  .seg-head:hover {
+    transform: scale(110%, 110%);
+  }
+
+  .seg-btn:hover {
+    transform: scale(110%, 110%);
+  }
+
+
+  /*Location*/
+  iframe {
+    width: 350px !important;
+    height: 350px !important;
+  }
+
+
+
+  /*FAQ*/
+  .p-faq {
+    font-size: 1rem;
+  }
+
+  h2.accordion-header>button {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+
+
+  /*Footer*/
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  li .footer-item {
+    display: none;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #ffffff;
+  }
+
+  li .footer-item:hover {
+    transform: scale(110%, 110%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+  }
+
+  .copy-footer {
+    font-size: 0.6rem;
+    color: #ffffff;
+  }
+
+  #footer>div>footer>a>img.logo-foot {
+    transform: scale(50%);
+    position: absolute;
+    left: 40%;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: white;
+
+  }
+
+  .nav-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+  }
+
+
+  .foot-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+
+
+
+/*Nokia???*/
+@media only screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f61001e;
+
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+
+  /*navbar*/
+  #navbar {
+    margin: 0;
+    gap: 0;
+    width: 100vw;
+    height: 80px;
+    z-index: 2;
+    word-break: break-all;
+
+  }
+
+  header {
+    background-color: #507526e8;
+  }
+
+  .logo {
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    left: 44%;
+    bottom: 7%;
+
+  }
+
+  .logo.nav {
+    position: relative;
+    left: 30px;
+  }
+
+  li.nav-link.nav-item {
+    display: inline-flex;
+  }
+
+  li .navbar-items {
+    display: flex;
+    flex: 1 1 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    border-radius: 10%;
+    width: fit-content;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.171);
+  }
+
+
+  li .navbar-items:hover {
+    transform: scale(100%, 100%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+
+  }
+
+  a.lang.eng {
+    font-size: 12px;
+  }
+
+  a.lang.tl {
+    font-size: 12px;
+  }
+
+  .lang:hover {
+    color: rgb(255, 230, 0) !important;
+  }
+
+  #nav-home {
+    margin-top: 0;
+
+  }
+
+
+  #us-flag {
+    height: 18px;
+    padding: 3px;
+    margin: auto;
+  }
+
+  #ph-flag {
+    height: 18px;
+    padding: 3px;
+    margin: auto;
+
+  }
+
+  .flex-shrink-0 {
+    flex-shrink: 0 !important;
+  }
+
+  #navbarCollapse>div {
+    padding: 0.8em !important;
+    margin-right: 0 !important;
+  }
+
+
+
+
+
+  /*Cover*/
+  #cover {
+    margin: auto;
+    padding: 0;
+    height: 90vh;
+
+  }
+
+  .container-fluid.carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .cover-item {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 50% center;
+  }
+
+  #cover-2 {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 25% top;
+  }
+
+
+
+  /*Features*/
+  .features.heading {
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .container.marketing>.row .col-lg-4 {
+    padding: 80px;
+  }
+
+  .features.rounded-image {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .features.rounded-image.change-position {
+    object-position: 5% 5%;
+  }
+
+
+  /*Featurette*/
+
+  .featurette-heading.fw-normal.lh-1 {
+    color: #2d8a39;
+    font-size: 2.5rem;
+  }
+
+  h2>.text-body-secondary {
+    color: #BFAC41 !important;
+  }
+
+  .images-featurette {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15%;
+  }
+
+  .p-emphasis {
+    font-weight: 700;
+  }
+
+  .featurette-padding {
+    padding: 5px 70px;
+  }
+
+  span.proverb {
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+    vertical-align: middle;
+  }
+
+  p.lead {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  #featurette>div.col-md-4 {
+    text-align: center !important;
+  }
+
+
+  /*Hero*/
+
+  #mabuhay-gradient {
+    font-size: 3rem;
+    -webkit-text-stroke: 0.5px black;
+    background-image: url(../images/others/flag-clip.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+  }
+
+  /*Jumbotron*/
+
+  .jumb-bg-img {
+    background-image: url(../images/ph-flags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+
+  /*Segway*/
+  .segway {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: auto;
+    justify-content: center;
+
+  }
+
+  .seg-head:hover {
+    transform: scale(110%, 110%);
+  }
+
+  .seg-btn:hover {
+    transform: scale(110%, 110%);
+  }
+
+
+  /*Location*/
+  iframe {
+    width: 350px !important;
+    height: 350px !important;
+  }
+
+
+
+  /*Footer*/
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  li .footer-item {
+    display: none;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #ffffff;
+  }
+
+  li .footer-item:hover {
+    transform: scale(110%, 110%);
+    color: rgb(255, 230, 0) !important;
+    margin: 0px 10px;
+  }
+
+  .copy-footer {
+    font-size: 0.5rem;
+    color: #ffffff;
+  }
+
+  #footer>div>footer>a>img.logo-foot {
+    transform: scale(50%);
+    position: absolute;
+    left: 40%;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: white;
+
+  }
+
+  .nav-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+  }
+
+
+  .foot-bg {
+    background-image: url(../images/others/bg-opaque.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+}

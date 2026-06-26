@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8J's Palay Buying Station</title>
+  <style>
+
+  </style>
+
+  <link rel="stylesheet" href="../css/style-tl.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <!--Header-->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg">
+        <div class="container-fluid px-3">
+          <a class="navbar-brand" href="./home-tl.html">
+            <img src="../images/logo/logo.png" class="logo">
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navHeaderCollapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item mx-1"> <a class="nav-link active navbar-items" id="nav-home" aria-current="page"
+                  href="./home-tl.html">Pahinang Pangunahin</a> </li>
+              <li class="nav-item mx-1"> <a class="nav-link active navbar-items" aria-current="page"
+                  href="./about-tl.html">Tungkol sa Amin</a> </li>
+              <li class="nav-item mx-1"> <a class="nav-link active navbar-items" aria-current="page"
+                  href="faq-tl.html">FAQs</a> </li>
+              <li class="nav-item mx-1"> <a class="nav-link active navbar-items" aria-current="page"
+                  href="contact-tl.html">Kontakin</a> </li>
+            </ul>
+            <div class="lang-options col-md-3 text-end mx-1 pb-5">
+              <a href="../index.html" class="lang eng" style="margin-right: 10px; text-decoration: none; color:white;"><img
+                  id="us-flag" src="../images/others/jp-draws-US-Flag.svg" alt="US Flag">English</a>
+              <a href="./home-tl.html" class="lang tl"
+                style="margin-left: 2px; text-decoration: none; color:white;"><img id="ph-flag"
+                  src="../images/others/jp-draws-Philippines-Flag.svg" alt="Filipino Flag">Filipino</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+    <!--Cover-->
+    <section id="cover">
+      <div class="container-fluid carousel">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+              class="active" aria-label="Slide 1" aria-current="true"></button> <button type="button"
+              data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button> <button
+              type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"> <img src="../images/palay/cover-1.jpg" id="cover-1" class="cover-item"
+                alt="Palay in the field">
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+              </svg>
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Bilhin o Ibenta ang Iyong Palay Ngayon</h1>
+                  <p class="opacity-75">Kumuha ng presyo para malaman kung paano ka kikita o makakatipid ng pera!</p>
+                  <p><a class="btn btn-lg btn-primary" href="./contact-tl.html">Makipag-ugnayan sa Amin</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"> <img src="../images/palay/farmer-sowing-1.jpg" id="cover-2" class="cover-item"
+                alt="A farmer sowing in a paddy field" style="filter:brightness(85%)">
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+              </svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Suportahan ang Ating mga Lokal na Magsasaka</h1>
+                  <p>Alamin kung paano mo matutulungan ang ating mga lokal na magsasaka na maghanapbuhay sa pamamagitan ng pakikipagsosyo sa
+                  amin!</p>
+                  <p><a class="btn btn-lg btn-primary" href="./about-tl.html">Matuto nang higit pa</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"> <img src="../images/rice/heart-rice.jpg" id="cover-3" class="cover-item"
+                alt="Hands holding white rice in the shape of a heart" style="filter:brightness(85%)">
+              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+              </svg>
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>Bawat Pagkain ay Dapat Masarap</h1>
+                  <p>Pasayahin ang iyong pamilya gamit ang aming de-kalidad na lokal na bigas!</p>
+                  <p><a class="btn btn-lg btn-primary" href="./contact-tl.html">Umorder Ngayon</a></p>
+                </div>
+              </div>
+            </div>
+          </div> <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+              class="visually-hidden">Previous</span>
+          </button> <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+            data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span
+              class="visually-hidden">Next</span> </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+    <section id="features" class="my-5 align">
+      <div class="features heading">
+        <h1 class="feature head">Isang Dakilang Bansa na May Mahusay na Kalidad!</h1>
+      </div>
+      <div class="container marketing"> <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4"> <img src="../images/palay/paddy-field-2.jpg" class="features rounded-image"
+              alt="A paddy field landscape">
+            <title>Local Rice Fields</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">Pagsuporta sa mga Lokal</h2>
+            <p>Ang bawat sentimo namin ay nakakatulong sa aming mga lokal na magsasaka upang patuloy na makagawa ng aming pagkain bawat
+            taon.</p>
+            <p><a class="btn btn-success" href="./about-tl.html">Matuto Pa »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4"> <img src="../images/others/pesos.jpg" class="features rounded-image"
+              alt="Multiple denomenations of Philippine pesos">
+            <title>Competitive Pricing</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">Mga Kompetitibong Presyo</h2>
+            <p>Mahirap ang panahon ngayon, kaya diretso na tayo sa pagbibigay sa inyo ng magandang presyo!</p>
+            <p><a class="btn btn-success" href="./contact-tl.html">Kumuha ka ng Presyo »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4"> <img src="../images/rice/rice-variety.jpg"
+              class="features rounded-image change-position" alt="A variety of rices">
+            <title>Mga Produkto na may Kalidad</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">Mga Produkto na may Kalidad</h2>
+            <p>Dahil sa aming kalahating siglong karanasan, makukuha mo ang pinakamahusay na kalidad para sa iyong pera.</p>
+            <p><a class="btn btn-success" href="./contact-tl.html">Umorder Ngayon »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
+    </section>
+
+    <hr style="margin: 1rem 0;">
+
+    <!--Hero-->
+    <section>
+      <div class="px-4 pt-3 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis"><span id="mabuhay-gradient">Mabuhay ang Pilipinas!</span></h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-1 mt-4">Patuloy nating ipakita ang pagmamahal sa ating bayan bilang mga Pilipino.</p>
+          <h2 class="mb-4">
+            <span style="color:#2C7336; font-size: 120%; font-weight: bolder;">One </span>Kilo,
+            <span style="color:#2C7336; font-size: 120%; font-weight: bolder;">One </span>Peso,
+            <span style="color:#2C7336; font-size: 120%; font-weight: bolder;">One </span>Love at a Time.
+
+          </h2>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="./contact-tl.html">
+              <button type="button" class="btn btn-success btn-lg px-4 me-sm-3">
+                Simulan Na
+              </button>
+            </a>
+            <a href="./about-tl.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Matuto Pa</button></a>
+          </div>
+        </div>
+        <div class="overflow-hidden">
+          <div class="container px-5">
+            <img src="../images/others/mabuhay.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image" width="" height="100%" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Footer-->
+    <section id="footer">
+      <div class="container-fluid foot-bg">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+          <p class="col-md-4 mb-0 copy-footer">© 2026 8J's Palay Buying Station</p> <a href="./home-tl.html"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"> <img class="logo-foot" src="../images/logo/Logo.png"
+              alt="8J's Palay Buying Station Logo" style="width:80px"></a>
+          <ul class="nav col-md-4 justify-content-center foot-nav">
+            <li class="nav-item"><a href="home-tl.html" class="nav-link px-2 footer-item">Pahinang Pangunahin</a></li>
+            <li class="nav-item"><a href="./about-tl.html" class="nav-link px-2 footer-item">Tungkol sa Amin</a></li>
+            <li class="nav-item"><a href="./faq-tl.html" class="nav-link px-2 footer-item">FAQs</a></li>
+            <li class="nav-item"><a href="./contact-tl.html" class="nav-link px-2 footer-item">Kontakin</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <!--JS script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
