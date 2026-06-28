@@ -9,14 +9,13 @@
 
   </style>
 
-  <link rel="stylesheet" href="../css/style-tl.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="../css/style-tl.css">
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <div class="site-wrapper">
     <!--Header-->
     <section id="navbar">
@@ -40,11 +39,11 @@
               <li class="nav-item mx-1"> <a class="nav-link active navbar-items" aria-current="page"
                   href="contact-tl.html">Kontakin</a> </li>
             </ul>
-            <div class="lang-options col-md-3 text-end mx-1 pb-5">
-              <a href="../en/index.html" class="lang eng"
+            <div class="lang-options col-md-3 text-end mx-4 pb-5">
+              <a href="../en/faq-en.html" class="lang eng"
                 style="margin-right: 10px; text-decoration: none; color:white;"><img id="us-flag"
                   src="../images/others/jp-draws-US-Flag.svg" alt="US Flag">English</a>
-              <a href="./home-tl.html" class="lang tl" style="margin-left: 2px; text-decoration: none; color:white;"><img
+              <a href="./faq-tl.html" class="lang tl" style="margin-left: 2px; text-decoration: none; color:white;"><img
                   id="ph-flag" src="../images/others/jp-draws-Philippines-Flag.svg" alt="Filipino Flag">Filipino</a>
             </div>
           </div>
@@ -52,150 +51,151 @@
       </nav>
     </section>
 
-    <!--FAQs Accordion-->
-    <section id="faq">
-      <div class="container-fluid" style="height:100vh;">
-        <div class="container my-5">
-          <h2 class="pb-2 border-bottom faq-title">Mga Madalas Itanong</h2>
-        </div>
-        <!--START OF PALAY CONTAINER-->
-        <div class="container my-5 palay-faq">
-          <h2 id="paddy-faq-head">Tungkol sa Palay</h2>
-          <div class="accordion" id="accordion1">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  Anong mga uri ang binibili/binebenta mo?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                  <p class="p-faq"><strong>Tumatanggap kami ng lahat ng uri!</strong> 
-                    Hangga't ang iyong palay ay nakakatugon sa aming pamantayan ng kalidad, malugod ka naming babayaran para sa iyong palay!</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Tawagan kami para makakuha ng sample!
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Mayroon bang minimum na order na kailangan kong gawin?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                  <p class="p-faq"><strong>Walang minimum order para sa lahat ng pagbili at pagbenta!</strong> 
-                    Tumatanggap kami ng kahit saan mula sa isang sako hanggang sa isang buong karga ng trak!</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Umorder na sa amin ngayon!
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Magkano ang halaga ng palay kada kilo?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                  <p class="p-faq">Nagbabago ang merkado ng agrikultura araw-araw, ngunit pinapanatili naming kompetitibo ang aming mga presyo.</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Tingnan kung magkano ang aming mga rate ngayon!
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+    <main class="flex-grow-1">
+      <!--FAQs Accordion-->
+      <section id="faq">
+        <div class="container-fluid">
+          <div class="container my-5">
+            <h2 class="pb-2 border-bottom faq-title">Mga Madalas Itanong</h2>
           </div>
-        </div> <!--END OF PALAY CONTAINER-->
-        <!--START OF RICE CONTAINER-->
-        <div class="container my-5 rice-faq">
-          <h2 id="rice-faq-head">Tungkol sa Bigas</h2>
-          <div class="accordion" id="accordion2">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Anong mga uri/grado ng bigas ang inyong iniaalok?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                <div class="accordion-body">
-                  <p class="p-faq">Maaaring mag-iba ang mga uri batay sa availability. Inuuri namin ang aming bigas batay sa kanilang kalidad. Ang mga
-                  lokal na bigas na aming iniaalok ay: <strong>Premium Grade</strong>, <strong>Well-Milled</strong>, at
-                    <strong>Regular</strong>.</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Alamin kung ano ang available sa amin ngayon!
-                    </button>
-                  </a>
+          <!--START OF PALAY CONTAINER-->
+          <div class="container my-5 palay-faq">
+            <h2 id="paddy-faq-head" class="mb-3">Tungkol sa Palay</h2>
+            <div class="accordion" id="accordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Anong mga uri ang binibili/binebenta mo?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p class="p-faq"><strong>Tumatanggap kami ng lahat ng uri!</strong> 
+                      Hangga't ang iyong palay ay nakakatugon sa aming pamantayan ng kalidad, malugod ka naming babayaran para sa iyong palay!</p>
+                    <a href="./contact-tl.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Tawagan kami para makakuha ng sample!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mayroon bang minimum na order na kailangan kong gawin?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p class="p-faq"><strong>Walang minimum order para sa lahat ng pagbili at pagbenta!</strong> 
+                      Tumatanggap kami ng kahit saan mula sa isang sako hanggang sa isang buong karga ng trak!</p>
+                    <a href="./contact-tl.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Umorder na sa amin ngayon!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Magkano ang halaga ng palay kada kilo?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <p class="p-faq">Nagbabago ang merkado ng agrikultura araw-araw, ngunit pinapanatili naming kompetitibo ang aming mga presyo.</p>
+                    <a href="./contact-tl.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Tingnan kung magkano ang aming mga rate ngayon!
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Nagde-deliver ba kayo?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                <div class="accordion-body">
-                  <p class="p-faq"><strong>Oo, nagde-deliver kami!</strong> <strong>LIBRE</strong> kaming naghahatid kahit saan sa loob ng 15 kilometrong radius mula sa aming pangunahing tindahan na may minimum na order
-                  na 10 sako.</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Tanungin ang aming mga rate ngayon!
-                    </button>
-                  </a>
+          </div> <!--END OF PALAY CONTAINER-->
+          <!--START OF RICE CONTAINER-->
+          <div class="container my-5 rice-faq">
+            <h2 id="rice-faq-head" class="mb-3">Tungkol sa Bigas</h2>
+            <div class="accordion" id="accordion2">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Anong mga uri/grado ng bigas ang inyong iniaalok?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                  <div class="accordion-body">
+                    <p class="p-faq">Maaaring mag-iba ang mga uri batay sa availability. Inuuri namin ang aming bigas batay sa kanilang kalidad. Ang mga
+                    lokal na bigas na aming iniaalok ay: <strong>Premium Grade</strong>, <strong>Well-Milled</strong>, at
+                      <strong>Regular</strong>.</p>
+                    <a href="./contact-en.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Alamin kung ano ang available sa amin ngayon!
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Ano ang mga presyo?
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-                <div class="accordion-body">
-                  <p class="p-faq">Tulad ng pagbabago ng presyo ng bigas, nagbabago rin ang merkado para sa bigas. Kahit na ganoon, sinisigurado pa rin
-                  naming mapapanatili naming mababa ang aming mga presyo.</p>
-                  <a href="./contact-en.html">
-                    <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
-                      Alamin kung magkano ang nababagay sa ating bigas ngayon!
-                    </button>
-                  </a>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Nagde-deliver ba kayo?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                  <div class="accordion-body">
+                    <p class="p-faq"><strong>Oo, nagde-deliver kami!</strong></p>
+                    <p class="p-faq">Tanungin ang aming mga rate ngayon!</p>
+                    <a href="./contact-tl.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Tingnan Dito!
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div> <!--END OF RICE CONTAINER-->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Ano ang mga presyo?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                  <div class="accordion-body">
+                    <p class="p-faq">Tulad ng pagbabago ng presyo ng palay, nagbabago rin ang merkado para sa bigas. Kahit na ganoon, sinisigurado pa rin
+                    naming mapapanatili naming mababa ang aming mga presyo.</p>
+                    <a href="./contact-tl.html">
+                      <button class="btn btn-primary my-3" type="button" style="--bs-btn-font-size: 1.4rem;">
+                        Alamin kung magkano ang nababagay sa ating bigas ngayon!
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> <!--END OF RICE CONTAINER-->
+          </div>
         </div>
-      </div>
-    </section>
-
+      </section>
+    </main>
 
     <!--Footer-->
-    <section id="footer">
+    <section id="footer" class="mt-auto">
       <div class="container-fluid foot-bg">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
           <p class="col-md-4 mb-0 copy-footer">© 2026 8J's Palay Buying Station</p> <a href="./home-tl.html"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
             aria-label="Bootstrap"> <img class="logo-foot" src="../images/logo/Logo.png"
-              alt="8J's Palay Buying Station Logo" style="width:80px"></a>
+              alt="8J's Palay Buying Station Logo"></a>
           <ul class="nav col-md-4 justify-content-center foot-nav">
             <li class="nav-item"><a href="home-tl.html" class="nav-link px-2 footer-item">Pahinang Pangunahin</a></li>
             <li class="nav-item"><a href="./about-tl.html" class="nav-link px-2 footer-item">Tungkol sa Amin</a></li>
