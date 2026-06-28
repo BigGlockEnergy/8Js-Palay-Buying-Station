@@ -290,7 +290,7 @@ div.carousel-indicators {
   #mabuhay-gradient {
     font-size: 7rem;
     -webkit-text-stroke: 0.4px black;
-    background-image: url(./images/others/flag-clip.jpg);
+    background-image: url(../images/others/flag-clip.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -612,7 +612,7 @@ div.carousel-indicators {
   #mabuhay-gradient {
     font-size: 5rem;
     -webkit-text-stroke: 0.4px black;
-    background-image: url(./images/others/flag-clip.jpg);
+    background-image: url(../images/others/flag-clip.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -951,7 +951,7 @@ div.carousel-indicators {
   #mabuhay-gradient {
     font-size: 4rem;
     -webkit-text-stroke: 0.4px black;
-    background-image: url(./images/others/flag-clip.jpg);
+    background-image: url(../images/others/flag-clip.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1298,7 +1298,7 @@ div.carousel-indicators {
   #mabuhay-gradient {
     font-size: 3rem;
     -webkit-text-stroke: 0.4px black;
-    background-image: url(./images/others/flag-clip.jpg);
+    background-image: url(../images/others/flag-clip.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
